@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp
+"2_10_2018_tmtrial\startup_stm32f303xe.o"
+"2_10_2018_tmtrial\main.o"
+"2_10_2018_tmtrial\stm32f3xx_it.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_msp.o"
+"2_10_2018_tmtrial\system_stm32f3xx.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_spi.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_spi_ex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_tim.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_tim_ex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_rcc.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_rcc_ex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_gpio.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_dma.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_cortex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_pwr.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_pwr_ex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_flash.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_flash_ex.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_i2c.o"
+"2_10_2018_tmtrial\stm32f3xx_hal_i2c_ex.o"
+--library_type=microlib --strict --scatter "2_10_2018_TMTrial\2_10_2018_TMTrial.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "2_10_2018_TMTrial.map" -o 2_10_2018_TMTrial\2_10_2018_TMTrial.axf
